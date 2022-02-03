@@ -1,5 +1,22 @@
 # Interviews are
 
+## Description
+
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# watch mode
+$ npm run start:dev
+```
+
 Example command to run:
 ```sh
 curl -X POST 127.0.0.1:3000/onboarding -H 'Content-Type: application/json' -d '{"name":"A","key": "pubA"}'
