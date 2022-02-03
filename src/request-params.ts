@@ -7,5 +7,5 @@ export class RequestParams {
 
   @IsString()
   @IsNotEmpty()
-  public key: string;
+  public key: string; // here we should validate for 32-bit, for the moment it's only checks string no empty
 }
